@@ -19,6 +19,6 @@ def won?(board)
   if board.include?(WIN_COMBINATIONS)
     return board
   else 
-    return falsey
+    return false
   end
 end
