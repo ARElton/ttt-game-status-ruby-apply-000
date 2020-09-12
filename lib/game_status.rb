@@ -33,6 +33,6 @@ def won?(board)
 end
 
 def full(board)
-  if board.any?{|index|
+  if board.any?{|index| index == nil
 end
  
