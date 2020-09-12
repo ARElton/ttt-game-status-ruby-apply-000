@@ -16,8 +16,7 @@ WIN_COMBINATIONS = [
   ]
 
 def won?(board)
-  if board.include?(WIN_COMBINATIONS)
-    return WIN_COMBINATIONS
+  board.select do 
   else 
     return false
   end
