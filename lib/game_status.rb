@@ -32,7 +32,7 @@ def won?(board)
   return false
 end
 
-def full(board)
+def full?(board)
   if board.any?{|index| index == nil || index == " "}
     return false
   else
