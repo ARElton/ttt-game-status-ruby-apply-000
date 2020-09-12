@@ -17,7 +17,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   board.select do |win|
-   if win == WIN_COMBINATIONS
+   if (board[index] == WIN_COMBINATIONS)
      return board
    else
      return false
