@@ -19,7 +19,7 @@ def won?(board)
   board.select do |win|
    if win == WIN_COMBINATIONS
      return board
-  else 
-    return false
-  end
+   else
+     return false
+   end
 end
